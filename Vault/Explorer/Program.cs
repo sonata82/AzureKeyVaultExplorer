@@ -18,7 +18,7 @@ namespace Microsoft.Vault.Explorer
     public static class Program
     {
         private static readonly Timer IdleTimer = new Timer();
-        private static readonly int TimeIntervalForApplicationIdle = (int)TimeSpan.FromHours(1).TotalMilliseconds;
+        private static readonly int TimeIntervalForApplicationIdle = (int)TimeSpan.FromHours(24).TotalMilliseconds;
         private static readonly int TimeIntervalForUserInput = (int)TimeSpan.FromMinutes(1).TotalMilliseconds;
 
         /// <summary>
